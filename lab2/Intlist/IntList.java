@@ -85,6 +85,7 @@ public class IntList {
         //TODO:  fill in method
         if (A == null) {
             A = B;
+            return A;
         }
 
         IntList aLastNode = A;
