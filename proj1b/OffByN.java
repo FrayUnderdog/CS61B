@@ -1,9 +1,9 @@
 public class OffByN implements CharacterComparator{
     /** Declare variables */
-    int diff;
+    private int diff;
 
     /** Constructor */
-    OffByN(int N) {
+    public OffByN(int N) {
         diff = N;
     }
 
